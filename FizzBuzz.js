@@ -1,5 +1,8 @@
-function IsDivisibleByThree() {
-    return true;
+function IsDivisibleByThree(n) {
+    if(n % 3 === 0){
+        return true;
+    }
+    return false;
 }
 
 module.exports = IsDivisibleByThree;
