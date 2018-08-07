@@ -13,3 +13,7 @@ test("isDivisibleByThree() should return false when a number argument is not div
 test("isDivisibleByFive() should return true when a number argument is divisible by 5", () => {
     expect(isDivisibleByFive(5)).toEqual(true);
 });
+
+test("isDivisibleByFive() should return false when a number is not divisible by 5", () => {
+    expect(isDivisibleByFive(6)).toEqual(false);
+});
