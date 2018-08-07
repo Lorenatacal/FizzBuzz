@@ -25,9 +25,9 @@ test("isDivisibleByThreeAndFive() should return true if a number is divisible by
 });
 
 test("isDivisibleByThreeAndFive() shoul return false if a number is not divisible by 3 and 5", () => {
-    expect(isDivisibleByThreeAndFive(16)).toEqual(false);
+    expect(isDivisibleByThreeAndFive(16) === true).toEqual(false);
 });
 
-test("Number() should return 'Fizz' when the function isDivisibleByThree is called", () => {
+test("Number() should return 'Fizz' when the function isDivisibleByThree returns true", () => {
     expect(fizz(3)).toEqual('Fizz');
 })
