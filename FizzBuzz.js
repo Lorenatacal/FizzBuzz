@@ -1,3 +1,11 @@
-const IsDivisibleByThree = n => (n % 3 === 0)
 
-module.exports = IsDivisibleByThree;
+const isDivisibleByThree = n => (n % 3 === 0)
+
+function isDivisibleByFive() {
+
+}
+
+module.exports = {
+    isDivisibleByThree,
+    isDivisibleByFive
+}
