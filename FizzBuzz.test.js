@@ -34,4 +34,8 @@ test("fizz() should return 'Fizz' when the function isDivisibleByThree returns t
 
 test("fizz() should return the number when the function isDivisibleByThree returns false", () => {
     expect(fizz(4)).toEqual(4);
-})
+});
+
+test("buzz() should return 'Buzz' if the function isDivisibleByFive is true", () => {
+    expect(fizz(5)).toEqual('Buzz');
+});
