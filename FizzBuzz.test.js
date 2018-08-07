@@ -20,5 +20,9 @@ test("isDivisibleByFive() should return false when a number is not divisible by 
 });
 
 test("isDivisibleByThreeAndFive() should return true if a number is divisible by 3 and 5", () => {
-    expect(isDivisibleByThreeAndFive()).toEqual(true);
+    expect(isDivisibleByThreeAndFive(15)).toEqual(true);
+});
+
+test("isDivisibleByThreeAndFive() shoul return false if a number is not divisible by 3 and 5", () => {
+    expect(isDivisibleByThreeAndFive(16)).toEqual(false);
 });
