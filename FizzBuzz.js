@@ -12,7 +12,7 @@ function fizz (n) {
     return n;
 }
 
-function buzz(n) {
+function buzz (n) {
     if (isDivisibleByFive(n) === true) {
         return "Buzz";
     }
