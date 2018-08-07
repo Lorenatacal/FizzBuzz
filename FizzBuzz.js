@@ -23,6 +23,7 @@ function fizzBuzz (n) {
     if(isDivisibleByThreeAndFive(n) === true) {
         return "FizzBuzz";
     }
+    return n;
 }
 
 
