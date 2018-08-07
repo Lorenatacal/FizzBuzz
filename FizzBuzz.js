@@ -16,6 +16,7 @@ function buzz (n) {
     if (isDivisibleByFive(n) === true) {
         return "Buzz";
     }
+    return n;
 }
 
 
