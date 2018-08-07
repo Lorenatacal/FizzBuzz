@@ -12,10 +12,17 @@ function fizz (n) {
     return n;
 }
 
+function buzz(n) {
+    if (isDivisibleByFive(n) === true) {
+        return "Buzz";
+    }
+}
+
 
 module.exports = {
     isDivisibleByThree,
     isDivisibleByFive,
     isDivisibleByThreeAndFive,
-    fizz
+    fizz,
+    buzz,
 }
