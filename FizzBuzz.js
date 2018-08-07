@@ -9,6 +9,7 @@ function fizz (n) {
     if (isDivisibleByThree(n) === true) {
         return "Fizz";
     }
+    return n;
 }
 
 
