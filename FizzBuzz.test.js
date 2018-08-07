@@ -4,6 +4,7 @@ const isDivisibleByFive = functions.isDivisibleByFive;
 const isDivisibleByThreeAndFive = functions.isDivisibleByThreeAndFive;
 const fizz = functions.fizz;
 const buzz = functions.buzz;
+const fizzBuzz = functions.fizzBuzz;
 
 test("isDivisibleByThree() should return true when a number argument is divisible by 3", () => {
     expect(isDivisibleByThree(3)).toEqual(true);
