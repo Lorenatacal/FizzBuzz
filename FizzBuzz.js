@@ -6,21 +6,21 @@ const isDivisibleByFive = n => (n % 5 === 0)
 const isDivisibleByThreeAndFive = n => (n % 3 === 0 && n % 5 === 0)
 
 function fizz (n) {
-    if (isDivisibleByThree(n) === true) {
+    if (isDivisibleByThree(n)) {
         return "Fizz";
     }
     return n;
 }
 
 function buzz (n) {
-    if (isDivisibleByFive(n) === true) {
+    if (isDivisibleByFive(n)) {
         return "Buzz";
     }
     return n;
 }
 
 function fizzBuzz (n) {
-    if(isDivisibleByThreeAndFive(n) === true) {
+    if(isDivisibleByThreeAndFive(n)) {
         return "FizzBuzz";
     }
     return n;
