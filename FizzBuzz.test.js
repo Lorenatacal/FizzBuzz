@@ -1,6 +1,7 @@
 var functions = require('./FizzBuzz.js');
 const isDivisibleByThree = functions.isDivisibleByThree;
 const isDivisibleByFive = functions.isDivisibleByFive;
+const isDivisibleByThreeAndFive = functions.isDivisibleByThreeAndFive
 
 test("isDivisibleByThree() should return true when a number argument is divisible by 3", () => {
     expect(isDivisibleByThree(3)).toEqual(true);
@@ -19,5 +20,5 @@ test("isDivisibleByFive() should return false when a number is not divisible by 
 });
 
 test("isDivisibleByThreeAndFive() should return true if a number is divisible by 3 and 5", () => {
-    expect(isDivisibleByThreeandFive()).toEqual(true);
+    expect(isDivisibleByThreeAndFive()).toEqual(true);
 });
