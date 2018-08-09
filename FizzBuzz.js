@@ -31,6 +31,7 @@ function game (n) {
     } else if (isDivisibleByFive(n)) {
         return 'Buzz';
     }
+    return n;
 }
 
 
