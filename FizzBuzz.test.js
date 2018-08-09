@@ -31,30 +31,30 @@ test("isDivisibleByThreeAndFive() shoul return false if a number is not divisibl
     expect(isDivisibleByThreeAndFive(16) === true).toEqual(false);
 });
 
-test("fizz() should return 'Fizz' when the function isDivisibleByThree returns true", () => {
+test("fizz() should return 'Fizz' when a number argument is divisible by 3", () => {
     expect(fizz(3)).toEqual('Fizz');
 });
 
-test("fizz() should return the number when the function isDivisibleByThree returns false", () => {
+test("fizz() should return the number if is not divisible by 3", () => {
     expect(fizz(4)).toEqual(4);
 });
 
-test("buzz() should return 'Buzz' if the function isDivisibleByFive is true", () => {
+test("buzz() should return 'Buzz' when a number argument is divisible by 5", () => {
     expect(buzz(5)).toEqual('Buzz');
 });
 
-test ("buzz() should return the number if the function isDivisibleByFive is false", () => {
+test ("buzz() should return the number if is not divisinle by 5", () => {
     expect(buzz(7)).toEqual(7);
 });
 
-test("fizzBuzz() should return 'FizzBuzz' when the function isDivisibleByThreeAndFive is true", () => {
+test("fizzBuzz() should return 'FizzBuzz' when when a number argument is divisible by 3 and 5", () => {
     expect(fizzBuzz(15)).toEqual('FizzBuzz');
 });
 
-test("fizzBuzz() should return the number if the function isDivisibleByThreeAndFive is false", () => {
+test("fizzBuzz() should return the number if is not divisible with both 3 and 5", () => {
     expect(fizzBuzz(17)).toEqual(17);
 });
 
-test("game() should return 'Fizz' when the function fizz is true", () => {
+test("game() should return 'Fizz' when the number is divisible by 3", () => {
     expect(game(6)).toEqual('Fizz');
 })
