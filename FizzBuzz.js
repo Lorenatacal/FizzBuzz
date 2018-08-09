@@ -9,15 +9,17 @@ const isDivisibleByFive = n => (n % 5 === 0)
 const isDivisibleByThreeAndFive = n => (n % 3 === 0 && n % 5 === 0)
 
 function game (n) {
-    if (isDivisibleByThreeAndFive(n)) {
-        return 'FizzBuzz';
-    } else if(isDivisibleByThree(n)) {
-        return 'Fizz';
-    } else if (isDivisibleByFive(n)) {
-        return 'Buzz';
+        if(n === 0) { return 0;} 
+        if(isDivisibleByThreeAndFive(n)) {return 'FizzBuzz';} 
+        if(isDivisibleByThree(n)) {return 'Fizz';} 
+        if(isDivisibleByFive(n)) {return 'Buzz';}
+        return n;
     }
-    return n;
+ 
+for (let i = 0; i < 100; i++) {
+    console.log (game(i));
 }
+
 
 
 module.exports = {
