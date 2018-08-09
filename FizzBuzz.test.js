@@ -2,9 +2,6 @@ var functions = require('./FizzBuzz.js');
 const isDivisibleByThree = functions.isDivisibleByThree;
 const isDivisibleByFive = functions.isDivisibleByFive;
 const isDivisibleByThreeAndFive = functions.isDivisibleByThreeAndFive;
-const fizz = functions.fizz;
-const buzz = functions.buzz;
-const fizzBuzz = functions.fizzBuzz;
 const game = functions.game;
 
 test("isDivisibleByThree() should return true when a number argument is divisible by 3", () => {
@@ -29,30 +26,6 @@ test("isDivisibleByThreeAndFive() should return true if a number is divisible by
 
 test("isDivisibleByThreeAndFive() shoul return false if a number is not divisible by 3 and 5", () => {
     expect(isDivisibleByThreeAndFive(16) === true).toEqual(false);
-});
-
-test("fizz() should return 'Fizz' when a number argument is divisible by 3", () => {
-    expect(fizz(3)).toEqual('Fizz');
-});
-
-test("fizz() should return the number if is not divisible by 3", () => {
-    expect(fizz(4)).toEqual(4);
-});
-
-test("buzz() should return 'Buzz' when a number argument is divisible by 5", () => {
-    expect(buzz(10)).toEqual('Buzz');
-});
-
-test ("buzz() should return the number if is not divisible by 5", () => {
-    expect(buzz(7)).toEqual(7);
-});
-
-test("fizzBuzz() should return 'FizzBuzz' when when a number argument is divisible by 3 and 5", () => {
-    expect(fizzBuzz(15)).toEqual('FizzBuzz');
-});
-
-test("fizzBuzz() should return the number if is not divisible with both 3 and 5", () => {
-    expect(fizzBuzz(17)).toEqual(17);
 });
 
 test("game() should return 'Fizz' when the number is divisible by 3", () => {
