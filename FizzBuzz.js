@@ -1,7 +1,7 @@
 
+
 function isDivisibleByThree(n) {
     return n % 3 === 0;
-    return false;
 }
 
 const isDivisibleByFive = n => (n % 5 === 0)
