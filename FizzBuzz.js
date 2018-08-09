@@ -24,7 +24,7 @@ function fizzBuzz (n) {
 }
 
 function game(n) {
-    return "Fizz";
+    return fizz(n);
 }
 
 
