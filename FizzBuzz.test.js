@@ -5,6 +5,7 @@ const isDivisibleByThreeAndFive = functions.isDivisibleByThreeAndFive;
 const fizz = functions.fizz;
 const buzz = functions.buzz;
 const fizzBuzz = functions.fizzBuzz;
+const game = functions.game;
 
 test("isDivisibleByThree() should return true when a number argument is divisible by 3", () => {
     expect(isDivisibleByThree(3)).toEqual(true);
@@ -54,4 +55,6 @@ test("fizzBuzz() should return the number if the function isDivisibleByThreeAndF
     expect(fizzBuzz(17)).toEqual(17);
 });
 
-test("Game() sh")
+test("game() should return 'Fizz' when the function fizz is true", () => {
+    expect(game(6)).toEqual('Fizz');
+})

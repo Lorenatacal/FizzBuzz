@@ -23,6 +23,10 @@ function fizzBuzz (n) {
     return n;
 }
 
+function game(n) {
+    
+}
+
 
 module.exports = {
     isDivisibleByThree,
@@ -31,4 +35,5 @@ module.exports = {
     fizz,
     buzz,
     fizzBuzz,
+    game,
 }
