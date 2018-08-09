@@ -15,10 +15,6 @@ function game (n) {
         if(isDivisibleByFive(n)) {return 'Buzz';}
         return n;
     }
- 
-for (let i = 0; i < 100; i++) {
-    console.log (game(i));
-}
 
 
 
