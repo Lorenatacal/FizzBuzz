@@ -40,10 +40,10 @@ test("fizz() should return the number if is not divisible by 3", () => {
 });
 
 test("buzz() should return 'Buzz' when a number argument is divisible by 5", () => {
-    expect(buzz(5)).toEqual('Buzz');
+    expect(buzz(10)).toEqual('Buzz');
 });
 
-test ("buzz() should return the number if is not divisinle by 5", () => {
+test ("buzz() should return the number if is not divisible by 5", () => {
     expect(buzz(7)).toEqual(7);
 });
 

@@ -23,8 +23,12 @@ function fizzBuzz (n) {
     return n;
 }
 
-function game(n) {
-    return fizz(n);
+function game (n) {
+    if (isDivisibleByThree(n)) {
+        return 'Fizz';
+    } else if(isDivisibleByFive(n)) {
+        return 'Buzz';
+    }
 }
 
 
