@@ -1,22 +1,19 @@
 
-const isDivisibleByThree = n => (n % 3 === 0)
+function isDivisibleByThree(n) {
+    return n % 3 === 0;
+    return false;
+}
 
 const isDivisibleByFive = n => (n % 5 === 0)
 
 const isDivisibleByThreeAndFive = n => (n % 3 === 0 && n % 5 === 0)
 
 function fizz (n) {
-    if (isDivisibleByThree(n)) {
-        return "Fizz";
-    }
-    return n;
+    return isDivisibleByThree(n) ? "Fizz" : n;
 }
 
 function buzz (n) {
-    if (isDivisibleByFive(n)) {
-        return "Buzz";
-    }
-    return n;
+    return isDivisibleByFive(n) ? "Buzz" : n;
 }
 
 function fizzBuzz (n) {

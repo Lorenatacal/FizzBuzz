@@ -1,0 +1,209 @@
+[33mcommit 43a9fcc0ef577ce89afeb233704aa1a343c1951e[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 21:13:54 2018 +0100
+
+    Refactor the code
+
+[33mcommit a4da22f93b5884e68709f4104aa3de0a0025d55b[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:32:17 2018 +0100
+
+    Pass the test
+
+[33mcommit 4d9cb765dd83e1029699e44dd860d84df0fdb4c2[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:31:28 2018 +0100
+
+    Att the test that return the number if the function isDivisibleByThreeAndFive is false
+
+[33mcommit 75634e5694b932cd5cd897ee07198d1d60b5c680[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:28:41 2018 +0100
+
+    Pass the test
+
+[33mcommit c0613b09a543fe2f4bd7e302e05e1f52f5bcd42a[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:25:59 2018 +0100
+
+    Add the test that returns 'FizzBuzz' when the function isDivisibleByThreeAndFive is true
+
+[33mcommit cf8e22bb5bb0a315997e26f7bf8cb6677e40177e[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:22:01 2018 +0100
+
+    Pass the test
+
+[33mcommit 7fb468319d31ba105470d06828ee6d655411de5c[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:20:42 2018 +0100
+
+    Add the test that reurns the number if it is not divisible by 5
+
+[33mcommit f3d13665defb4ce12311fedbadd0b0f81f1b344a[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:18:22 2018 +0100
+
+    Pass the test
+
+[33mcommit 648a4e6f9c625480328ae137c98916b48011752a[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:12:52 2018 +0100
+
+    Add the test that returns 'Buzz' if the function isDivisibleByFive is true
+
+[33mcommit 50b7d2c16f0567d6e1a853b494d40c7ae2eedb47[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:08:22 2018 +0100
+
+    Pass the test
+
+[33mcommit 112027f8a9f34573419d85e100934b7fe1f29aee[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:07:38 2018 +0100
+
+    Add the test that returns the number when the function isDivisibleByThree is false
+
+[33mcommit c755c1b223b9aeed1c33582b9647a08dbeda0d54[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 11:04:52 2018 +0100
+
+    Pass the test
+
+[33mcommit 0a7f3424a86177ef2900f141bc00399206626ade[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:56:37 2018 +0100
+
+    Change the message of the function fizz being undefined
+
+[33mcommit 4fb0317ef3b1062f3911ae7028d19d408ffeb46e[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:54:16 2018 +0100
+
+    Test that returns Fizz when the method isDivisibleByThree is called
+
+[33mcommit 53e72efa51765875bad4e8b6ff17271a3b966b05[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:45:24 2018 +0100
+
+    Refactor the code
+
+[33mcommit 25d0e97caa35c49f1c8b4f66a41a02906ef294d2[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:41:43 2018 +0100
+
+    Pass the test that returns false if a number is not divisible by 3 and 5
+
+[33mcommit 6712ea2df53e3457307b280388a2776572973c55[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:38:45 2018 +0100
+
+    Add the test that reurns false if a number is not divisible by 3 and 5
+
+[33mcommit 871df6592f2a2dcd96761961b9db9ee5cfbda34f[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:35:47 2018 +0100
+
+    Pass the test by returning false positive
+
+[33mcommit 7d7e9da5720d537909947cda11b3e83623d02cb8[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:34:38 2018 +0100
+
+    Change the message of the function isDivisibleByThreeAndFive being undefined
+
+[33mcommit 72e045abb17958e5fd4842b91b14f3927a260a24[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:30:42 2018 +0100
+
+    Add the test to return true if a number argument is divisible both 3 and 5
+
+[33mcommit 3f1e0e5ebc5db173a660f36dc95ffa68dee089dc[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:26:40 2018 +0100
+
+    Refactor the code
+
+[33mcommit 4f1bbd057b5c2db7d85e9397299ef39d3e391252[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:24:46 2018 +0100
+
+    Make the test pass
+
+[33mcommit 422361d4e1c80483d45bb345fe4fba7308240176[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:22:44 2018 +0100
+
+    Add the test that returns false if a number is not divisible by 5
+
+[33mcommit a9410fa21ad9fa2ac5329013899fa7582476110d[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:18:58 2018 +0100
+
+    Pass the test of the function isDivisibleByFive by returning false positive
+
+[33mcommit 4fc05108ffa021264be214f12658f0e90fededff[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Tue Aug 7 10:16:37 2018 +0100
+
+    Change the message of the function isDivisibleByFive being undefined
+
+[33mcommit 640ed94d57f09b63f13de7d67f059bbe280b9067[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Mon Aug 6 10:15:29 2018 +0100
+
+    Add the test for a function that will return true if a number argument is divisible by 5
+
+[33mcommit 7d8b66b296859af298ab1ef9ed79ba01e7acc3b5[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 23:08:15 2018 +0100
+
+    Refactor to arrow function
+
+[33mcommit 42bb07e84b818ca8b15052ab0a0f7934f57e62d2[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 23:03:07 2018 +0100
+
+    Refactor IsDivisibleByThree
+
+[33mcommit 6a9ff2d9e132fed6dfdd303583149f260ed3cb4a[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 22:52:54 2018 +0100
+
+    Write the code to make the tests pass
+
+[33mcommit 4db186644c168dfaa93b8dba7a1c6e0a2d62a6a0[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 22:44:33 2018 +0100
+
+    Test IsDivisibleByThree returns false if number is not divisible by 3
+
+[33mcommit 9d345733be5c4e24447c8096f757587c9bc1eab9[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 22:35:58 2018 +0100
+
+    Pass the test by returning false positive
+
+[33mcommit bd40efe197a38c7d889e200a8facc3fa906b5826[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 22:26:29 2018 +0100
+
+    Change the message from the funtion IsDivisibleByThree being undefined
+
+[33mcommit 7564ca9957c5518869374bbdd2e92a7b7763e427[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 22:10:41 2018 +0100
+
+    Correct the testto take one argument instead of 2
+
+[33mcommit 0d44ccbacd0f5ac0df90e328656d865adfca7708[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 22:06:56 2018 +0100
+
+    Add the test for a function that will return true if a number is divisible by 3
+
+[33mcommit a5ba78776a14e70c492b94f340ea6e668f5ab260[m
+Author: Lorenatacal <Lorena.tacal@gmail.com>
+Date:   Sun Aug 5 21:45:09 2018 +0100
+
+    Add FizzBuzz Project
