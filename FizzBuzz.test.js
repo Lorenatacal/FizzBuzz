@@ -65,4 +65,8 @@ test("game() should return 'Buzz' when the number argument is divisible by 5", (
 
 test("game() shoul return 'FizzBuzz' if a number argument is divisible with both 3 and 5", () => {
     expect(game(15)).toEqual('FizzBuzz');
+});
+
+test("game() should return the number if is not divisible with 3 or 5", () => {
+    expect(game(4)).toEqual(4);
 })
